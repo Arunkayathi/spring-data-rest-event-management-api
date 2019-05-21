@@ -33,6 +33,7 @@ public class Participant extends AbstractEntity {
         return getId().equals(participant.getId());
     }
 
+
     @Override
     public int hashCode() {
         return Objects.hash(getId());
